@@ -1,2 +1,2 @@
 select * 
-from {{ref('product_master')}}
+from {{ref('product_master')}};
