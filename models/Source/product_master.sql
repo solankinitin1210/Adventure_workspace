@@ -6,5 +6,3 @@ left join adv_workspace.dashboard.sub_category as sc on sc.PRODUCTSUBCATEGORYKEY
 left join adv_workspace.dashboard.category as c on c.PRODUCTCATEGORYKEY = sc.PRODUCTCATEGORYKEY)
 
 select * from data1
-
-
